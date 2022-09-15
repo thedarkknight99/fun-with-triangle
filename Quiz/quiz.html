@@ -6,29 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
+    <link href="../style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <nav>
-        <a href="../Angles/triangleAngle.html">Is Triangle</a>
-        <a href="./quiz.html">Triangle Quiz</a>
-        <a href="../Hypotenuse/hypotenuse.html">Calculate Hypotenuse</a>
-        <a href="../Area/area.html">Calculate Area</a>
+    <nav class="navbar">
+        <div class="logo">Fun With Triangles🎄</div>
+        <div>
+            <a class="navlinks" href="../Angles/triangleAngle.html">Is Triangle</a>
+            <a class="navlinks" href="./quiz.html">Triangle Quiz</a>
+            <a class="navlinks" href="../Hypotenuse/hypotenuse.html">Calculate Hypotenuse</a>
+            <a class="navlinks" href="../Area/area.html">Calculate Area</a>
+        </div>
     </nav>
-    <div>
+    <div class="container">
         <h1>Triangle Quiz</h1>
         <form class="quiz-form">
             <div class="question-container">
-                <p>What is third angle for triangle where angle are 45&deg and 45&deg</p>
+                <p>1. What is third angle for triangle where angle are 45&deg and 45&deg?</p>
                 <label><input type="radio" value="90&deg" name="question1" />90&deg</label>
                 <label><input type="radio" value="60&deg" name="question1" />60&deg</label>
                 <label><input type="radio" value="45&deg" name="question1" />45&deg</label>
             </div>
             <div class="question-container">
-                <p>If a triangle has an angle of 90&deg, what is it called?</p>
+                <p>2. If a triangle has an angle of 90&deg, what is it called?</p>
                 <label><input type="radio" value="acute" name="question2" />acute</label>
                 <label><input type="radio" value="obtuse" name="question2" />obtuse</label>
                 <label><input type="radio" value="right-angled" name="question2" />right-angled</label>
+            </div>
+            <div class="question-container">
+                <p>3. A triangle whose all sides are equal is known as?</p>
+                <label><input type="radio" value="acute" name="question3" />acute</label>
+                <label><input type="radio" value="obtuse" name="question3" />obtuse</label>
+                <label><input type="radio" value="equilateral" name="question3" />equilateral</label>
+            </div>
+            <div class="question-container">
+                <p>4. A triangle whose two sides are equal is known as?</p>
+                <label><input type="radio" value="isosceles" name="question4" />isosceles</label>
+                <label><input type="radio" value="obtuse" name="question4" />obtuse</label>
+                <label><input type="radio" value="right-angled" name="question4" />right-angled</label>
+            </div>
+            <div class="question-container">
+                <p>5. Median of a triangle divides the side into two equal parts?</p>
+                <label><input type="radio" value="true" name="question5" />true</label>
+                <label><input type="radio" value="false" name="question5" />false</label>
+                <!-- <label><input type="radio" value="none of above" name="question5" />none of above</label> -->
+            </div>
+            <div class="question-container">
+                <p>6. The perimeter of an isosceles triangle is 96cm. If the base is 40cm, find the length of the equal
+                    sides?</p>
+                <label><input type="radio" value="28" name="question6" />28</label>
+                <label><input type="radio" value="22" name="question6" />22</label>
+                <label><input type="radio" value="25" name="question6" />25</label>
+            </div>
+            <div class="question-container">
+                <p>7. How many sides does a triangle have?</p>
+                <label><input type="radio" value="4" name="question7" />4</label>
+                <label><input type="radio" value="3" name="question7" />3</label>
+                <label><input type="radio" value="2" name="question7" />2</label>
             </div>
         </form>
         <button id="submit-btn">Submit</button>

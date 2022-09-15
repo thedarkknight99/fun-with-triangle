@@ -5,6 +5,7 @@ const outputAngle = document.querySelector("#output-angle");
 function isTriangle() {
     if (Number(inputs[0].value) > 0 && Number(inputs[1].value) > 0 && Number(inputs[2].value) > 0) {
         const sumofAngles = calcSumOfAngles(Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value));
+        console.log(sumofAngles)
         if (sumofAngles === 180) {
             outputAngle.innerText = "Hurray! Angles form a triangle🎉"
         } else {

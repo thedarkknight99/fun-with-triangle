@@ -6,22 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link href="../style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <nav>
-        <a href="../Angles/triangleAngle.html">Is Triangle</a>
-        <a href="../Quiz/quiz.html">Triangle Quiz</a>
-        <a href="./hypotenuse.html">Calculate Hypotenuse</a>
-        <a href="../Area/area.html">Calculate Area</a>
+    <nav class="navbar">
+        <div class="logo">Fun With Triangles🎄</div>
+        <div>
+            <a class="navlinks" href="../Angles/triangleAngle.html">Is Triangle</a>
+            <a class="navlinks" href="../Quiz/quiz.html">Triangle Quiz</a>
+            <a class="navlinks" href="./hypotenuse.html">Calculate Hypotenuse</a>
+            <a class="navlinks" href="../Area/area.html">Calculate Area</a>
+        </div>
     </nav>
-    <div>
+    <div class="container">
         <h1>Calculate Hypotenuse</h1>
-        <label>Base(in cm)</label>
-        <input type="number" class="triangle-input" />
-        <label>Height(in cm)</label>
-        <input type="number" class="triangle-input" />
-        <button class="submit-btn">Calculate</button>
+        <label class="angle-label">Base(in cm)</label>
+        <input type="number" class="triangle-input angle-input" />
+        <label class="angle-label">Height(in cm)</label>
+        <input type="number" class="triangle-input angle-input" />
+        <button class="submit-btn" id="is-triangle-btn">Calculate</button>
         <div id="output"></div>
     </div>
 

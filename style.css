@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@700&display=swap');
+
+:root {
+    --primary-color: #fdf4ff;
+    --primary-font-color: #9d174d;
+    --primary-nav-color: #db2777;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    /* background-color: var(--primary-color); */
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    padding-left: 1rem;
+}
+
+.navbar {
+    background-color: var(--primary-nav-color);
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 2px 2px 3px var(--primary-font-color);
+}
+
+.navlinks {
+    padding-right: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.navlinks:hover {
+    background-color: var(--primary-font-color);
+    padding: 1rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.angle-input,
+.angle-label,
+#is-triangle-btn {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+#is-triangle-btn {
+    margin-top: 2rem;
+    width: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    border-radius: 1rem;
+    background-color: var(--primary-nav-color);
+    color: white;
+    border: 1px solid var(--primary-nav-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#is-triangle-btn:hover {
+    background-color: #dc689c;
+}
+
+.angle-input,
+.angle-label {
+    width: 60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.angle-input {
+    border: 1px solid var(--primary-font-color);
+}
+
+.submit-btn {
+    background-color: var(--primary-nav-color);
+    color: white;
+    border: none;
+
+}
+
+#output-angle {
+    margin-top: 1rem;
+}
+
+.quiz-form {
+    border: 1px solid var(--primary-nav-color);
+    padding: 2rem;
+}
+
+.question-container {
+    display: inline-block;
+}
+
+.question-container p {
+    font-weight: 600;
+}
+
+#submit-btn {
+    margin-top: 2rem;
+    width: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    border-radius: 1rem;
+    background-color: var(--primary-nav-color);
+    color: white;
+    border: 1px solid var(--primary-nav-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#submit-btn:hover {
+    background-color: #dc689c;
+}
+
+#output-answer {
+    margin-top: 2rem;
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+#output {
+    margin-top: 2rem;
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
